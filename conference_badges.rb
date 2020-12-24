@@ -14,7 +14,7 @@ def assign_rooms(attendees)
   end
 end
 
-def printer
+def printer(names_array)
   batch_badge_creator(names_array)
   names_array.each do |index|
     puts "Hello, my name is #{index}."
